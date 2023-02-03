@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 import './navigation.css';
 const Navigation = () => {
   return (
-    <nav className="navbar flex items-center justify-between">
+    <nav className="navbar flex items-center justify-between mt-6">
     
     <img src={img1} alt="Image"/>        
     <ul className='font-medium'>

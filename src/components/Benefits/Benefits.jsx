@@ -6,7 +6,7 @@ import './benefit.css'
 const Benefits = () => {
   return (
     <>
-    <div className="flex justify-between px-32 py-4 mt-20">
+    <div className="flex justify-between px-32 py-4 mt-20 ml-12">
         <div>
         <img  src={Img1} className="benefits-img" alt="Image" />
         </div>
@@ -16,7 +16,7 @@ const Benefits = () => {
             <Button />
         </div>
     </div>
-    <div className="flex justify-between px-40 py-4 mt-20">
+    <div className="flex justify-between px-32 py-4 mt-20 ml-12">
         <div className='w-9/12 benefits-text'>
             <h1 className='text-6xl'>Get Benefit for Remote Workers and Freelancers</h1>
             <p className='text-2xl mt-10 mb-20'>From flexible co-working spaces to low-cost Internet Subscriptions. Getbenefit helps remote workers and tailored to their specific needs</p>
