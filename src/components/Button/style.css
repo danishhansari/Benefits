@@ -1,0 +1,8 @@
+.btn{
+    background: var(--primary-purple);
+    transition: .3s background ease-in-out;
+}
+
+.btn:hover{
+    background: var(--primary-purple-hover);
+}
