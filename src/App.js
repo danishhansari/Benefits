@@ -1,13 +1,12 @@
 import './App.css';
 import Header from './components/Header/Header';
-import Navigation from './components/Navigation/Navigation';
-
+import Popup from './components/Popup/Popup';
 function App() {
   return (
-    <div className='px-32 py-4'>
-      <Navigation />
+    <>
       <Header />
-    </div>
+      <Popup /> 
+    </>
   );
 }
 
