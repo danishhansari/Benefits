@@ -1,6 +1,4 @@
 import React from 'react'
-import Img1 from '../assets/standing.png' 
-import Img2 from '../assets/boy-laptop.png';
 import Button from '../Button/Button';
 import './benefit.css'
 const Benefits = () => {
@@ -8,7 +6,7 @@ const Benefits = () => {
     <>
     <div className="flex justify-between px-32 py-4 mt-20 ml-12">
         <div>
-        <img  src={Img1} className="benefits-img" alt="Image" />
+        <img  src="./assets/standing.png" className="benefits-img" alt="Image" />
         </div>
         <div className='w-6/12 benefits-text'>
             <h1 className='text-6xl'>Get Benefit for Startup and Teams</h1>
@@ -23,7 +21,7 @@ const Benefits = () => {
             <Button />
         </div>
         <div>
-        <img  src={Img2} className="benefits-img mr-20" alt="Image" />
+        <img  src="./assets/boy-laptop.png" className="benefits-img mr-20" alt="Image" />
         </div>
     </div>
     </>

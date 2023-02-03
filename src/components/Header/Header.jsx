@@ -1,7 +1,6 @@
 import React from 'react';
 import './header.css';
 import Button from '../Button/Button'
-import heroImg from '../assets/hero.jpg'
 import Navigation from '../Navigation/Navigation';
 const Header = () => {
   return (
@@ -15,7 +14,7 @@ const Header = () => {
             <Button />
         </div>
         <div>
-            <img src={heroImg} alt="" />
+            <img src="./assets/hero.jpg" alt="Mens" />
         </div>
     </div>
     </div>

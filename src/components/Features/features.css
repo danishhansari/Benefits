@@ -1,0 +1,45 @@
+.feature-grid{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    width: 82%;
+}
+.feature{
+    border-radius: 20px;
+    box-shadow: 0px 130px 52px rgba(0, 0, 0, 0.01), 0px 73px 44px rgba(0, 0, 0, 0.05), 0px 8px 18px rgba(0, 0, 0, 0.1);
+    padding-left: 28px;
+    padding-right: 15px;
+    padding-top: 65px;
+    padding-bottom: 1.5em;
+    margin-bottom: 46px;
+    margin-right: 1.5em;
+}
+.feature h1{
+    color: var(--primary-purple);
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 500;
+    letter-spacing: 1%;
+    margin-bottom: .2em;
+}
+.feature p{
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 1%;
+    font-weight: 400;
+}
+.feature img{
+    width: 45px;
+    margin-bottom: 38px;
+}
+.broadband,
+.kk{
+    grid-column: 1/4;
+}
+.health,
+.co-working-space{
+    grid-column: 5/8;
+}
+.education,
+.vacation{
+    grid-column: 9/12;
+}
