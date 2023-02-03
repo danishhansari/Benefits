@@ -1,0 +1,18 @@
+.benefits-text{
+    /* width: 50%; */
+}
+.benefits-text h1{
+    width: 70%;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 1%;
+    color: var(--primary-purple);
+}
+.benefits-text p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 1%; 
+    width: 65%;
+}

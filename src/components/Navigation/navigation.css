@@ -1,7 +1,12 @@
 ul li a{
     color: var(--primary-purple);
     transition: .3s ease;
+    border-radius: 0.375rem;
 }
 ul li a:hover{
     background-color: var(--primary-purple-hover);
+}
+.active{
+    color: white;
+    background: var(--primary-purple-hover);
 }

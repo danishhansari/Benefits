@@ -1,4 +1,5 @@
 import './App.css';
+import Benefits from './components/Benefits/Benefits';
 import Header from './components/Header/Header';
 import Popup from './components/Popup/Popup';
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <Popup /> 
+      <Benefits />
     </>
   );
 }
