@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 import './navigation.css';
 const Navigation = () => {
   return (
-    <nav className="navbar px-32 py-4 flex items-center justify-between">
+    <nav className="navbar flex items-center justify-between">
     <img src={img1} alt="Image"/>        
     <ul className='font-medium'>
         <li className='inline-block p-2 mr-8 text-xl '><a href="#">Home</a></li>

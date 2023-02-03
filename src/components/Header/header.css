@@ -1,0 +1,19 @@
+.hero > div{
+    margin-top: 10em;
+}
+.heading{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 64.8px;
+    letter-spacing: 1%;
+}
+.heading-purple{
+    color: var(--primary-purple);
+    width: 80%;
+}
+.heading-pink{
+    color: var(--primary-pink);
+}
+.heading span{
+    color: var(--primary-pink);
+}
