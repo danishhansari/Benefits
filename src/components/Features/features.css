@@ -32,6 +32,18 @@
     margin-bottom: 38px;
 }
 .broadband,
+.vacation{
+    background: #F0FFFB;
+}
+.health,
+.kk{
+    background: #FFFEF0;
+}
+.education,
+.co-working-space{
+    background: #FFF0F4;
+}
+.broadband,
 .kk{
     grid-column: 1/4;
 }
