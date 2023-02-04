@@ -6,6 +6,8 @@ import Features from './components/Features/Features';
 import Work from './components/Work/Work';
 import Spend from './components/Spend/Spend';
 import WhyBenefits from './components/Whybenefits/WhyBenefits';
+import Questions from './components/Questions/Questions';
+import AboutUs from './components/AboutUs/Aboutus';
 function App() {
   return (
     <>
@@ -16,6 +18,8 @@ function App() {
       <Work />
       <Spend />
       <WhyBenefits />
+      <Questions />
+      <AboutUs />
     </>
   );
 }
