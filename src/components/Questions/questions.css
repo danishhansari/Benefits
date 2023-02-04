@@ -1,0 +1,13 @@
+.faq-question .heading h1{
+    font-size: 36px;
+    line-height: 43px;
+}
+.faq-question .heading .btn-pink{
+    background: #FF73CB;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-block: 15px;
+    padding-inline: 58px;
+    border-radius: 10px;
+}

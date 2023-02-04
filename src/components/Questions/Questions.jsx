@@ -1,16 +1,18 @@
 import React from 'react'
-
+import './questions.css';
 const Questions = () => {
   return (
     <>
+    <div className='w-10/12 mx-auto faq-question'>
     <div className='flex'>
-      <div className="flex-img">
-        {/* image */}
-        <div className="heading">
-          <p>
-            Have more Questions?
-          </p>
-          <button className='btn-pink'>Contact Us</button>
+      <div className="flex-img flex items-center">
+        <img src="./assets/market.png" alt="" />
+        <div className="heading ml-8">
+          <h1 className='font-medium'>
+            Have more
+            <br /> Questions?
+          </h1>
+          <button className='btn-pink text-white mt-12'>Contact Us</button>
         </div>
       </div>
       <div className="faqs">
@@ -69,6 +71,7 @@ const Questions = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
     </>
   )

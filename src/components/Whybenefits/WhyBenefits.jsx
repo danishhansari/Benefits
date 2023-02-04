@@ -3,7 +3,7 @@ import "./whyBenefits.css"
 const WhyBenefits = () => {
   return (
     <>
-    <div className=" w-10/12 mx-auto why-benefit mb-16">
+    <div className="w-10/12 mx-auto why-benefit mb-16">
       <div className="flex">
         <div className="purple list-item w-full">
           <button>Why Get Button?</button>
