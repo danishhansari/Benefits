@@ -1,0 +1,14 @@
+.men{
+    position: relative;
+}
+.men-text{
+    font-size: 43px;
+    line-height: 53px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    width: 40%;
+    height: 260px;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+}
