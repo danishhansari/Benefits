@@ -4,10 +4,10 @@ const Questions = () => {
   return (
     <>
     <div className='w-10/12 mx-auto faq-question'>
-    <div className='flex'>
+    <div className='flex items-center justify-around'>
       <div className="flex-img flex items-center">
-        <img src="./assets/market.png" alt="" />
-        <div className="heading ml-8">
+        <img src="./assets/market.png" alt="Digital market" />
+        <div className="heading ml-12">
           <h1 className='font-medium'>
             Have more
             <br /> Questions?
@@ -17,54 +17,54 @@ const Questions = () => {
       </div>
       <div className="faqs">
         <div className="faq">
-          <div className="question">
+          <div className="question py-6 px-6 flex items-center justify-between">
             <p>What Benefits does GetBenefit offers?</p>
-            {/* Arrow */}
+            <img src="./assets/arrow.svg" alt="Arrow" />
           </div>
           <div className="answer">
             {/* Answer */}
           </div>
         </div>
         <div className="faq">
-          <div className="question">
+          <div className=" question py-6 px-6 flex items-center justify-between">
             <p>How much does it cost to use get benefits</p>
-            {/* Arrow */}
+            <img src="./assets/arrow.svg" alt="Arrow" />
           </div>
           <div className="answer">
             {/* Answer */}
           </div>
         </div>
         <div className="faq">
-          <div className="question">
+          <div className=" question py-6 px-6 flex items-center justify-between">
             <p>Can I Customize my benefits plans</p>
-            {/* Arrow */}
+            <img src="./assets/arrow.svg" alt="Arrow" />
           </div>
           <div className="answer">
             {/* Answer */}
           </div>
         </div>
         <div className="faq">
-          <div className="question">
+          <div className=" question py-6 px-6 flex items-center justify-between">
             <p>What do I do when I am confused</p>
-            {/* Arrow */}
+            <img src="./assets/arrow.svg" alt="Arrow" />
           </div>
           <div className="answer">
             {/* Answer */}
           </div>
         </div>
         <div className="faq">
-          <div className="question">
+          <div className=" question py-6 px-6 flex items-center justify-between">
             <p>Does GetBenefit offers 24/7 support</p>
-            {/* Arrow */}
+            <img src="./assets/arrow.svg" alt="Arrow" />
           </div>
           <div className="answer">
             {/* Answer */}
           </div>
         </div>
         <div className="faq">
-          <div className="question">
+          <div className=" question py-6 px-6 flex items-center justify-between">
             <p>Is GetBenefit available in all locations</p>
-            {/* Arrow */}
+            <img src="./assets/arrow.svg" alt="Arrow" />
           </div>
           <div className="answer">
             {/* Answer */}
