@@ -1,0 +1,26 @@
+.why-benefit .flex .purple{
+    background: #8C36AC;
+    color: white;
+    width: 50%;
+}
+.why-benefit button{
+    font-size: 32px;
+    background: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 3em;
+    margin-left: .8em;
+    color: #8C36AC;
+    padding-block:5px;
+    padding-inline: 5px;
+}
+.why-benefit .flex ul{
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: 24px;
+}
+.why-benefit .flex ul li{
+    margin-block: 1em;
+}
+.why-benefit .flex .img img{
+ position: relative;
+}

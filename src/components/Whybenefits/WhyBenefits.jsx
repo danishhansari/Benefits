@@ -1,20 +1,27 @@
 import React from 'react'
+import "./whyBenefits.css"
 const WhyBenefits = () => {
   return (
-    <div className='flex'>
-        <div>
-            <button>Why Get Benefit?</button>
-            <ul>
-                <li>Access Benefit in a single bundle</li>
-                <li>Flexible Benefits Plans</li>
-                <li>Secure and Compliance</li>
-                <li>Pay-as-you go</li>
-                <li>24/7 Support</li>
-                <li>Zero paper work</li>
+    <>
+    <div className=" w-10/12 mx-auto why-benefit mb-16">
+      <div className="flex">
+        <div className="purple list-item w-full">
+          <button>Why Get Button?</button>
+        <ul>
+                <li><img src="./assets/right.svg" alt="" className='inline-block w-5 mr-1'/> Access Benefit in a single bundle</li>
+                <li><img src="./assets/right.svg" alt="" className='inline-block w-5 mr-1'/>Flexible Benefits Plans</li>
+                <li><img src="./assets/right.svg" alt="" className='inline-block w-5 mr-1'/>Secure and Compliance</li>
+                <li><img src="./assets/right.svg" alt="" className='inline-block w-5 mr-1'/>Pay-as-you go</li>
+                <li><img src="./assets/right.svg" alt="" className='inline-block w-5 mr-1'/>24/7 Support</li>
+                <li><img src="./assets/right.svg" alt="" className='inline-block w-5 mr-1'/>Zero paper work</li>
             </ul>
         </div>
-        <div className='why-benefit-img'></div>
+        <div className="img">
+          <img src="./assets/freelancer.jpg" alt="freelancer" />
+        </div>
+      </div>
     </div>
+    </>
   )
 }
 
