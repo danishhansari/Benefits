@@ -1,5 +1,5 @@
 .work-heading{
-    font-size: 60px;
+    /* font-size: 60px; */
     color: var(--primary-purple);
 }
 .work-flex > div{
@@ -8,29 +8,26 @@
 }
 .work h1{
     color: var(--primary-purple);
-    line-height: 36px;
-    letter-spacing: 1%;
-    font-size: ;
+    /* line-height: 36px; */
+    /* letter-spacing: 1%; */
     }
 .work .img{
     width: 119px;
-    height: 119px;
 }
 .work-flex{
     width: 100%;
     /* background: #000; */
 }
 .work{
-width: 295px;
-height: 351px;
+max-width: 295px;
 background: #F8F8F8;
 box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 border-radius: 5px;
 }
 .work p{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    /* font-weight: 400;
+    font-size: 20px; */
+    /* line-height: 24px; */
     color: #1F271B;
-    letter-spacing: 1%;
+    /* letter-spacing: 1%; */
 }
