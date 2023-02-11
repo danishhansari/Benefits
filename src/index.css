@@ -4,6 +4,9 @@
 html{
   scroll-behavior: smooth;
 }
+*{
+  /* background: rgba(12, 23, 56, .1); */
+}
 body {
   margin: 0;
   font-family:'Roboto', 'Oxygen',

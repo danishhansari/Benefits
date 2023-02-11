@@ -3,19 +3,19 @@ import './questions.css';
 const Questions = () => {
   return (
     <>
-    <div className='w-10/12 mx-auto faq-question'>
-    <div className='flex items-center justify-around'>
-      <div className="flex-img flex items-center">
-        <img src="./assets/market.png" alt="Digital market" />
-        <div className="heading ml-12">
-          <h1 className='font-medium'>
+    <div className='md:w-10/12 mx-auto faq-question'>
+    <div className='flex flex-col md:flex-row items-center justify-around'>
+      <div className="flex-img flex flex-col md:flex-row items-center ">
+        <img src="./assets/market.png" alt="Digital market" className='w-full' />
+        <div className="heading mx-auto">
+          <h1 className='font-medium text-center'>
             Have more
             <br /> Questions?
           </h1>
-          <button className='btn-pink text-white mt-12'>Contact Us</button>
+          <button className='btn-pink text-white my-8 w-full'>Contact Us</button>
         </div>
       </div>
-      <div className="faqs">
+      <div className="faqs md:w-2/5">
         <div className="faq">
           <div className="question py-6 px-6 flex items-center justify-between">
             <p>What Benefits does GetBenefit offers?</p>

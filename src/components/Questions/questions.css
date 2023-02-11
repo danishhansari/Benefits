@@ -10,13 +10,10 @@
     padding-block: 15px;
     padding-inline: 58px;
     border-radius: 10px;
-    transition: background .3s ease;
+    transition:.3s background ease;
 }
 .faq-question .heading .btn-pink:hover{
     background: #fa53bd;
-}
-.faq-question .faqs{
-    width: 40%;
 }
 .faq-question .faqs .question{
     font-size: 18px;
